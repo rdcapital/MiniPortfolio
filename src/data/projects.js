@@ -1,4 +1,69 @@
+import fuelwiseDemo from "../assets/fuelwise-demo.png";
+import studentProfileHubDemo from "../assets/student-profile-hub-demo.png";
+import liveDataDashboardDemo from "../assets/live-data-dashboard-demo.png";
+import taskManagerDemo from "../assets/task-manager-app-demo.png";
+import movieExplorerDemo from "../assets/movie-explorer-app-demo.png";
+import weatherForecastDemo from "../assets/weather-forecast-app-demo.png";
+import studentDirectoryDemo from "../assets/student-directory-app-demo.png";
+import themedCrudTodoDemo from "../assets/themed-crud-todo-demo.png";
+import notesDemo from "../assets/notes-app-demo.png";
+import formValidatorDemo from "../assets/form-validator-app-demo.png";
+import rcalcsDemo from "../assets/rcalcs-app-demo.png";
+import teamCardGalleryDemo from "../assets/team-card-gallery-demo.png";
+
 export const projects = [
+  {
+    id: "fuelwise",
+    title: "FuelWise — Vehicle Fuel and Maintenance Tracker",
+    tagline: "Track vehicle fuel use, maintenance, and performance from one dashboard.",
+    category: "Vehicle Management",
+    featured: true,
+    date: "2026",
+    role: "Developer",
+    client: "Vehicle Management Tool",
+    duration: "Ongoing",
+    image: fuelwiseDemo,
+    tags: ["Fuel Tracking", "Maintenance", "Analytics"],
+    metrics: [
+      { label: "Fuel Tracking", value: "Included" },
+      { label: "Maintenance", value: "Included" },
+      { label: "Reports", value: "Included" }
+    ],
+    fullDescription: "FuelWise is a vehicle fuel and maintenance tracker for recording fill-ups, reviewing fuel history, and monitoring vehicle costs and efficiency.",
+    keyFeatures: [
+      "Record and review fuel fill-ups",
+      "Monitor fuel costs, distance, and efficiency",
+      "Track maintenance and view vehicle reports"
+    ],
+    githubUrl: "https://github.com/rdcapital/FUELWISE",
+    liveUrl: "https://fuelwise-flax.vercel.app/"
+  },
+  {
+    id: "student-profile-hub",
+    title: "Student Profile Hub — Student Registration and Directory",
+    tagline: "Register students and browse organized academic profiles in one place.",
+    category: "Education Management",
+    featured: true,
+    date: "2026",
+    role: "Developer",
+    client: "Student Management Tool",
+    duration: "Ongoing",
+    image: studentProfileHubDemo,
+    tags: ["Student Registration", "Directory", "Profile Management"],
+    metrics: [
+      { label: "Student Registration", value: "Available" },
+      { label: "Student Directory", value: "Available" },
+      { label: "Profile Records", value: "Available" }
+    ],
+    fullDescription: "Student Profile Hub provides a student registration form and directory for organizing student profiles and academic records.",
+    keyFeatures: [
+      "Register students with personal and contact details",
+      "Browse student profiles in a directory",
+      "Review student and location summary statistics"
+    ],
+    githubUrl: "https://github.com/rdcapital/backend.git",
+    liveUrl: "https://backend-o6h1.vercel.app/"
+  },
   {
     id: "live-data-dashboard",
     title: "Live Data Dashboard",
@@ -9,7 +74,7 @@ export const projects = [
     role: "Frontend Developer",
     client: "Production Web App",
     duration: "3 Months",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+    image: liveDataDashboardDemo,
     tags: ["React", "Tailwind CSS", "Recharts", "Vite", "WebSockets"],
     metrics: [
       { label: "Update Rate", value: "Real-time" },
@@ -36,7 +101,7 @@ export const projects = [
     role: "Full Stack Developer",
     client: "Productivity Tool",
     duration: "2 Months",
-    image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=1200&q=80",
+    image: taskManagerDemo,
     tags: ["React", "Tailwind CSS", "Zustand", "LocalStorage", "Vite"],
     metrics: [
       { label: "State Sync", value: "Instant" },
@@ -63,7 +128,7 @@ export const projects = [
     role: "Frontend Developer",
     client: "Entertainment App",
     duration: "2 Months",
-    image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80",
+    image: movieExplorerDemo,
     tags: ["React", "Tailwind CSS", "TMDB REST API", "Vite"],
     metrics: [
       { label: "Catalog Size", value: "10,000+ Movies" },
@@ -90,7 +155,7 @@ export const projects = [
     role: "Frontend Developer",
     client: "Weather Utility App",
     duration: "1 Month",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=1200&q=80",
+    image: weatherForecastDemo,
     tags: ["React", "OpenWeather API", "Tailwind CSS", "Vite"],
     metrics: [
       { label: "Forecast Days", value: "7-Day Outlook" },
@@ -117,7 +182,7 @@ export const projects = [
     role: "Frontend Developer",
     client: "Education Management",
     duration: "2 Months",
-    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
+    image: studentDirectoryDemo,
     tags: ["React", "Tailwind CSS", "CRUD Operations", "Vite"],
     metrics: [
       { label: "Record Capacity", value: "Unlimited" },
@@ -144,7 +209,7 @@ export const projects = [
     role: "Frontend Developer",
     client: "Productivity App",
     duration: "1 Month",
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=1200&q=80",
+    image: themedCrudTodoDemo,
     tags: ["React", "Tailwind CSS", "Context API", "Vite"],
     metrics: [
       { label: "Themes Available", value: "Multiple Color Schemes" },
@@ -171,7 +236,7 @@ export const projects = [
     role: "Frontend Developer",
     client: "Personal Productivity",
     duration: "1 Month",
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=1200&q=80",
+    image: notesDemo,
     tags: ["React", "Tailwind CSS", "Markdown", "Vite"],
     metrics: [
       { label: "Auto-Save", value: "Instant" },
@@ -198,7 +263,7 @@ export const projects = [
     role: "Frontend Developer",
     client: "Form Utility Tool",
     duration: "1 Month",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    image: formValidatorDemo,
     tags: ["React", "Tailwind CSS", "Custom Hooks", "Vite"],
     metrics: [
       { label: "Validation Engine", value: "Real-time Regex & Rules" },
@@ -225,7 +290,7 @@ export const projects = [
     role: "Frontend Developer",
     client: "Utility Web App",
     duration: "1 Month",
-    image: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?auto=format&fit=crop&w=1200&q=80",
+    image: rcalcsDemo,
     tags: ["React", "Tailwind CSS", "Math Engine", "Vite"],
     metrics: [
       { label: "Precision", value: "Double Precision Floating Point" },
@@ -252,7 +317,7 @@ export const projects = [
     role: "Frontend Developer",
     client: "UI Component Showcase",
     duration: "1 Month",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+    image: teamCardGalleryDemo,
     tags: ["React", "Tailwind CSS", "Vite"],
     metrics: [
       { label: "Interactions", value: "Card Hover & Modal Popups" },
